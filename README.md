@@ -8,8 +8,8 @@
 
 ```mermaid
 graph LR
-    A(Sentiment Client Docker) --> B(Sentiment Server Docker)
-    B --> A
+    A(Sentiment Client Docker) -- Request -->  B(Sentiment Server Docker)
+    B -- Response --> A
 ```
 
 
