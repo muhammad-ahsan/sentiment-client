@@ -6,6 +6,13 @@
 
 
 
+```mermaid
+graph LR
+    A(Sentiment Client Docker) -- Request -->  B(Sentiment Server Docker)
+    B -- Response --> A
+```
+
+
 # Docker Compose
 docker compose build
 
