@@ -1,5 +1,4 @@
 FROM python:3.8
-MAINTAINER Muhammad Ahsan <muhammad.ahsan@gmail.com>
 
 RUN pip install pipenv
 RUN apt-get -q update && apt-get install -y --no-install-recommends gcc supervisor && rm -rf /var/lib/apt/lists/*
